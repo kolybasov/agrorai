@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+    background-image: url('../img/back.jpg');
+}
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -50px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+    height: 50px; /* .push must be the same height as .footer */
+}
+
+/*
+
+Sticky Footer by Ryan Fait
+http://ryanfait.com/
+
+*/
+.glyphicon-refresh {
+    cursor:pointer;
+    color:#396;
+    font-size: 1.5em;
+    vertical-align: top;
+    margin-left: 0.5em;
+}
+#header a {
+    text-decoration: none;
+    color:#339966;
+    text-shadow: 1px 1px 3px #000000, 0px 0px 6px #ffffff;
+}
+#nav {
+    margin-top: 34px;
+}
+#nav li.active a {
+    color: #fff;
+}
+.space {
+    padding-left: 20px;
+}
+.label {
+    font-size: 15px;
+    background-color: #339966;
+}
+.top-0 {
+    margin-top: 10px;
+}
+.bottom-0 {
+    margin-bottom: 5px;
+}
+.wrapper {
+    box-shadow: 0 0 5px #000;
+    background-image: url('../img/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-color: #ffffff;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+    background-color: #339966;
+}
+#header a[href^="mailto"], #nav a {
+    color: #333333;
+    text-shadow: none;
+}
+h1 small {
+    color: #339966;
+}
+.side-part h4 a {
+     font-size: 18px;
+     color: #ffffff;
+    text-decoration: none;
+ }
+.side-part {
+    margin-bottom: 30px;
+}
+.sidebar-text{
+    margin-top: 35px;
+    text-align: justify;
+}
+#oil_info {
+    background-image: url('../img/oil.jpg');
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+#beans_info {
+    background-image: url('../img/beans.jpg');
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+a {
+    color: #339966;
+}
+.text-justify {
+    text-align: justify;
+}
+.img {
+    width:100%;
+    margin: 20px 0;
+}
+.table-left {
+    background-color: #339966;
+    color: #ffffff;
+}
+.table-right {
+    background-color: #e99002;
+    color: #ffffff;
+}
+.table td {
+    border-right: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+}
+h1 {
+font: normal 3em Georgia, "Times New Roman", Times, serif;
+margin: 0 0 20px;
+padding: 10px 0;
+font-weight: normal;
+text-align: center;
+text-shadow: 1px 1px 1px #ccc; /*--Не поддерживается IE--*/
+}
+h1 span {
+color: #e99002;
+font-weight: bold;
+}
+h1 small {
+font-size: 0.35em;
+text-transform: uppercase;
+color: #000;
+font-family: Arial, Helvetica, sans-serif;
+text-shadow: none;
+display: block; /*--Выделяем для тэга small отдельную линию--*/
+margin-top: 5px;
+background-color: #e99002;
+border-radius: 10px;
+}
+p {
+    text-indent: 20px;
+}

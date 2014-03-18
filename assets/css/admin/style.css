@@ -1,0 +1,47 @@
+#nav {
+    width:200px;
+    border-right: 1px solid #396;
+    padding: 0 5px;
+    min-height: 100%;
+    margin: 0;
+}
+.content {
+    border-left: 1px solid #396;
+    min-height: 100%;
+    padding:  5px 0 0 6px;
+    margin-left: 199px;
+}
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    overflow-x: hidden;
+}
+.bg {
+    background-color: #396;
+    margin: 0 -5px 5px -5px;
+    padding: 10px;
+}
+.bg a {
+    text-decoration: none;
+    color: #fff;
+}
+.login {
+    width: 400px;
+    margin: 10px auto;
+}
+
+.divider {
+    border-bottom: 1px solid #396;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+    background-color: #339966;
+    color: #fff;
+}
+a {
+    color: #339966;
+}
+.margin-bottom {
+    margin-bottom: 20px;
+}
